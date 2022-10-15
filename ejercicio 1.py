@@ -10,8 +10,8 @@ class Punto:
     def punto(self):
         return (self.valor_x,self.valor_y)
         
-    def str(self):
-        return f"("+str(Punto(self.valor_x,self.valor_y).punto()[0])+","+str(Punto(self.valor_x,self.valor_y).punto()[1])+")"
+    # def str(self):
+    #     return f"("+str(Punto(self.valor_x,self.valor_y).punto()[0])+","+str(Punto(self.valor_x,self.valor_y).punto()[1])+")"
 
     def cuadrante(self):
         if self.valor_x==0 and self.valor_y!=0:
@@ -76,10 +76,10 @@ B = Punto(5,5)
 C = Punto(-3,-1)
 D = Punto()
 
-print(A.str())
-print(B.str())
-print(C.str())
-print(D.str()) 
+print(A.punto())
+print(B.punto())
+print(C.punto())
+print(D.punto()) 
 
 # Consultar cuadrantes A, C y D.
 
