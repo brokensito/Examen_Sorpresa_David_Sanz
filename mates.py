@@ -4,11 +4,11 @@ class Punto:
         self.valor_x = valor_x
         self.valor_y = valor_y
     
-    def generador_puntos(self):
+    def punto(self):
         return (self.valor_x,self.valor_y)
         
     def str(self):
-        return f"("+str(Punto(self.valor_x,self.valor_y).generador_puntos()[0])+","+str(Punto(self.valor_x,self.valor_y).generador_puntos()[1])+")"
+        return f"("+str(Punto(self.valor_x,self.valor_y).punto()[0])+","+str(Punto(self.valor_x,self.valor_y).generador_puntos()[1])+")"
 
 
 
